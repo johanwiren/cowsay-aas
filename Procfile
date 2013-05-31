@@ -1,1 +1,1 @@
-cowsay: bundle exec ruby cowsay.rb -p $PORT
+web: bundle exec ruby cowsay.rb -p $PORT
