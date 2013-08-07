@@ -10,5 +10,6 @@ get '/' do
 end
 
 get '/:message' do
-    Cowsay.say(params[:message])
+    cow = Cowsay::Character.const_get(:Cow).new
+    cow.say(params[:message])
 end
