@@ -6,7 +6,7 @@ before do
 end
 
 get '/' do
-    redirect '/this%20is%20an%20example'
+    "Usage: http://#{request.env["HTTP_HOST"]}/message\n"
 end
 
 get '/*/*' do
