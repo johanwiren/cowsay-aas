@@ -1,7 +1,3 @@
-configure :production do
-      require 'newrelic_rpm'
-end
-
 require 'cowsay'
 require 'sinatra'
 
